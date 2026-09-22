@@ -4,7 +4,6 @@
 
 - 🎓 CSE student at CMR Technical Campus, Hyderabad
 - 🛠️ Building real-world-facing projects — accessibility (ASL recognition), environmental reporting, healthcare, and productivity tools
-- 🧰 Also ship developer tooling: a cross-platform token-usage tracker for the Claude desktop app and Chrome
 - 💬 Ask me about SignSpeak, ecoguard, or FocusPlus
 
 ## 🔗 Socials
@@ -33,14 +32,6 @@
 - **[FocusPlus](https://github.com/Anirudh-0617/FocusPlus)** — study planner that scores weak topics from missed sessions, AI difficulty ratings, incomplete tasks, and self-rated difficulty, then auto-reschedules missed sessions around a 4-per-day cap. React, TypeScript, Vite, Supabase, OpenAI.
 - **[HemoCare-Ai-main](https://github.com/Anirudh-0617/HemoCare-Ai-main)** — Gemini API-backed healthcare app, TypeScript and Vite.
 - **[PLANFINDER](https://github.com/Anirudh-0617/PLANFINDER)** — one place to compare OTT subscription plans instead of checking each service.
-
-## 🛠️ Also Built
-
-Claude Counter, a token-usage tracker for Claude, shipped as three separate native ports:
-
-- **[claude-menubar](https://github.com/Anirudh-0617/claude-menubar)** — macOS menu bar app. Decrypts the Claude desktop app's cookies out of the macOS Keychain (AES-128-CBC, PBKDF2-SHA1) and calls Claude's internal usage API through `curl_cffi`, impersonating Chrome's TLS fingerprint to get past Cloudflare.
-- **[claude-menubar-windows](https://github.com/Anirudh-0617/claude-menubar-windows)** — same idea for Windows: DPAPI decrypts the `Local State` key, AES-256-GCM decrypts the cookie store, packaged as a system tray app with PyInstaller.
-- **[claude-counter-mac](https://github.com/Anirudh-0617/claude-counter-mac)** — Chrome extension version. Injects a bridge script into the page context to intercept `fetch` and read Claude's SSE stream directly, showing live token counts, a cache countdown, and per-model cost estimates inside claude.ai.
 
 ## 📊 GitHub Stats
 
