@@ -44,6 +44,4 @@ Claude Counter, a token-usage tracker for Claude, shipped as three separate nati
 
 ## 📊 GitHub Stats
 
-![Anirudh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Anirudh-0617&show_icons=true&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Anirudh-0617&layout=compact&theme=dark&hide_border=true)
 ![GitHub Streak](https://streak-stats.demolab.com?user=Anirudh-0617&theme=dark&hide_border=true)
